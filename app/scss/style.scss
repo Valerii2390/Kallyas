@@ -1,0 +1,195 @@
+    @import '_vars';
+    @import '_global';
+    @import '_fonts';
+    .header {
+        min-height: 930px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .header__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 40px;
+        margin-bottom: 77px;
+    }
+    
+    .header__menu-list {
+        margin-right: 100px;
+    }
+    
+    .header__menu-list li {
+        display: inline-block;
+    }
+    
+    .header__menu-item+.header__menu-item {
+        margin-left: 30px;
+    }
+    
+    .header__menu-link {
+        @include f300;
+        color: #fff;
+        line-height: 14px;
+    }
+    
+    form {
+        margin-right: 31px;
+        input {
+            background-color: transparent;
+            border: none;
+            border-bottom: 1px solid $red;
+            outline: none;
+            &::placeholder {
+                color: $red;
+            }
+        }
+        input[type="text"] {
+            outline: none;
+            color: $red;
+        }
+        button {
+            position: relative;
+            background-color: transparent;
+            border: none;
+            right: 17px;
+            top: -2px;
+            outline: none;
+            cursor: pointer;
+            &::before {
+                position: absolute;
+                content: "\f002";
+                font-family: 'icomoon';
+                font-size: 12px;
+                color: $red;
+                top: -10px;
+                left: -4px;
+            }
+        }
+    }
+    
+    .header__login-btn {
+        color: #fff;
+    }
+    
+    .header__signup-btn {
+        border-radius: 23px;
+        color: #fff;
+        background-color: $red;
+        padding: 14px 31px;
+    }
+    
+    .slider__item {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .slider__content {
+        margin-top: 100px;
+    }
+    
+    .slider__list-items li {
+        display: inline-block;
+    }
+    
+    .slider__list-item+.slider__list-item {
+        margin-left: 15px;
+    }
+    
+    .slider__list-link {
+        padding: 5px 10px;
+        color: #fff;
+        margin-bottom: 40px;
+    }
+    
+    .year {
+        background-color: $yel;
+    }
+    
+    .action {
+        background-color: $bll;
+    }
+    
+    .adventure {
+        background-color: $ora;
+    }
+    
+    .slider__title {
+        font-size: 60px;
+        @include f600;
+        color: #fff;
+        margin-bottom: 45px;
+    }
+    
+    .slider__paragraph {
+        max-width: 475px;
+        overflow-x: hidden;
+        max-height: 90px;
+        width: 100%;
+        @include f300;
+        line-height: 23px;
+        color: $text;
+    }
+    
+    .slider__btn {
+        box-shadow: 0px 1px 2px 0px rgba(69, 90, 100, 0.75);
+        color: #fff;
+        background-color: $red;
+        padding: 17px 20px 17px 43px;
+        border-radius: 40px;
+        border: none;
+        outline: none;
+        margin-bottom: 100px;
+    }
+    
+    .play {
+        background-color: $red;
+        position: relative;
+        &::before {
+            position: absolute;
+            content: "\f0da";
+            font-family: 'icomoon';
+            font-size: 20px;
+            color: #fff;
+            left: 21px;
+            top: 15px;
+        }
+    }
+    
+    .add {
+        background-color: #000;
+        margin-left: 26px;
+        position: relative;
+        &::before {
+            position: absolute;
+            content: "\f067";
+            font-family: 'icomoon';
+            font-size: 15px;
+            color: #fff;
+            left: 21px;
+            top: 18px;
+        }
+    }
+    
+    .slider__text {
+        @include f300;
+        color: $text;
+        line-height: 14px;
+        margin-bottom: 27px;
+        display: block;
+    }
+    
+    .slider__pic {
+        margin-right: 122px;
+        margin-bottom: 70px;
+    }
+    
+    .slider__pic-img {
+        // width: 100%;
+        max-width: 430px;
+        min-height: 430px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
