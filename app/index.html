@@ -36,10 +36,10 @@
                     </ul>
                 </nav>
                 <form class="header__form">
-                    <input type="text" placeholder="поиск...">
+                    <input type="search" placeholder="поиск...">
                     <button type="submit "></button>
                 </form>
-                <a class="header__login-btn" href="#">Вход</a>
+                <a class="header__login-btn" data-fancybox data-src="#modal" href="javascript:;">Вход</a>
                 <a class="header__signup-btn" href="#">Регистрация</a>
             </div>
             <section class="slider">
@@ -149,39 +149,6 @@
                             <div class="slider__content">
                                 <ul class="slider__list-items">
                                     <li class="slider__list-item">
-                                        <a class="slider__list-link year" href="#">2014</a>
-                                    </li>
-                                    <li class="slider__list-item">
-                                        <a class="slider__list-link action" href="#">Криминальный</a>
-                                    </li>
-                                    <li class="slider__list-item">
-                                        <a class="slider__list-link adventure" href="#">Военный</a>
-                                    </li>
-                                </ul>
-                                <div class="slider__title">
-                                </div>
-                                <p class="slider__paragraph"> Американский криминальный телесериал, произведённый в сотрудничестве компаний Primrose Hill Productions, DC Entertainment и Warner Bros. Television. Сюжетно представляет собой предысторию комиксов о Бэтмене, рассказывая
-                                    о его постепенном становлении на путь супергероя, однако центральным персонажем сериала является Джеймс Гордон — друг Бэтмена в полиции Готэма. Создателем «Готэма» является Бруно Хеллер, также известный по телесериалам
-                                    «Рим» и «Менталист».
-                                </p>
-                                <a class="slider__btn play" href="">Смотреть</a>
-                                <a class="slider__btn add" href="">Добавить в список</a>
-                                <a class="slider__text">
-                                Популярные сериалы
-                            </a>
-                            </div>
-                            <div class="slider__pic">
-                                <a class="slider__pic-link " href="#">
-                                    <img class="slider__pic-img" src="images/gotham.jpg" alt="Мстители">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="slider__item">
-                            <div class="slider__content">
-                                <ul class="slider__list-items">
-                                    <li class="slider__list-item">
                                         <a class="slider__list-link year" href="#">2016</a>
                                     </li>
                                     <li class="slider__list-item">
@@ -246,6 +213,40 @@
                             <div class="slider__content">
                                 <ul class="slider__list-items">
                                     <li class="slider__list-item">
+                                        <a class="slider__list-link year" href="#">2014</a>
+                                    </li>
+                                    <li class="slider__list-item">
+                                        <a class="slider__list-link action" href="#">Криминальный</a>
+                                    </li>
+                                    <li class="slider__list-item">
+                                        <a class="slider__list-link adventure" href="#">Военный</a>
+                                    </li>
+                                </ul>
+                                <div class="slider__title">
+                                    Готэм
+                                </div>
+                                <p class="slider__paragraph"> Американский криминальный телесериал, произведённый в сотрудничестве компаний Primrose Hill Productions, DC Entertainment и Warner Bros. Television. Сюжетно представляет собой предысторию комиксов о Бэтмене, рассказывая
+                                    о его постепенном становлении на путь супергероя, однако центральным персонажем сериала является Джеймс Гордон — друг Бэтмена в полиции Готэма. Создателем «Готэма» является Бруно Хеллер, также известный по телесериалам
+                                    «Рим» и «Менталист».
+                                </p>
+                                <a class="slider__btn play" href="">Смотреть</a>
+                                <a class="slider__btn add" href="">Добавить в список</a>
+                                <a class="slider__text">
+                                Популярные сериалы
+                            </a>
+                            </div>
+                            <div class="slider__pic">
+                                <a class="slider__pic-link " href="#">
+                                    <img class="slider__pic-img" src="images/gotham.jpg" alt="Мстители">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="slider__item">
+                            <div class="slider__content">
+                                <ul class="slider__list-items">
+                                    <li class="slider__list-item">
                                         <a class="slider__list-link year" href="#">2020</a>
                                     </li>
                                     <li class="slider__list-item">
@@ -273,14 +274,651 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
             </section>
         </div>
+        <div class="slider__preview">
+            <div class="container-fluid">
+                <div class="slider__items-mini">
+                    <div class="slider__item-mini" style="background-image: url(images/avengers-mini.jpg); height: 222px; width: 196px;"></div>
+                    <div class="slider__item-mini" style="background-image: url(images/defenders-mini.jpg); height: 222px; width: 196px;"></div>
+                    <div class="slider__item-mini" style="background-image: url(images/blacklist-mini.jpg); height: 222px; width: 196px;"></div>
+                    <div class="slider__item-mini" style="background-image: url(images/lucifer-mini.jpg); height: 222px; width: 196px;"></div>
+                    <div class="slider__item-mini" style="background-image: url(images/prison-mini.jpg); height: 222px; width: 196px;"></div>
+                    <div class="slider__item-mini" style="background-image: url(images/gotham-mini.jpg); height: 222px; width: 196px;"></div>
+                    <div class="slider__item-mini" style="background-image: url(images/the100-mini.jpg); height: 222px; width: 196px;"></div>
+                </div>
+            </div>
+        </div>
     </header>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="js/libs.min.js"></script>
-    <script src="js/main.js"></script>
+    <section class="mission" style="background-image: url(images/bg-mission.jpg); width: 100%; height: 100%;">
+        <div class="container">
+            <div class="mission__item">
+                <div class="mission__pic">
+                    <a class="mission__pic-link " href="https://www.youtube.com/watch?v=h1DPRrt4zxc">
+                        <img class="mission__pic-img" src="images/vimeo-play.png" alt="Миссия Невыполнима">
+                        <img class="mission__pic-main" src="images/mission.jpg" width="674px" height="429px" alt="Миссия Невыполнима">
+                    </a>
+                </div>
+                <div class="mission__content">
+                    <ul class="mission__list-items">
+                        <li class="mission__list-item">
+                            <a class="mission__list-link year" href="#">2005</a>
+                        </li>
+                        <li class="mission__list-item">
+                            <a class="mission__list-link action" href="#">Боевик</a>
+                        </li>
+                        <li class="mission__list-item">
+                            <a class="mission__list-link adventure" href="#">Домашний</a>
+                        </li>
+                    </ul>
+                    <div class="mission__title">
+                        Миссия: Невыполнима
+                    </div>
+                    <p class="mission__paragraph"> Начальник пражского отдела ЦРУ Джим Фелпс (Джон Войт) получает кассету с заданием для отряда IMF. Полученная миссия состоит в слежке за предполагаемым предателем, Александром Голицыным (Марсель Юрес), который собирается украсть список
+                        агентов ЦРУ из офиса IMF и продать его некому Максу. Джим встречается со своим отрядом, куда вошли его правая рука Итан Хант (Том Круз), его жена Клэр (Эммануэль Беар), хакер Джек Хармон (Эмилио Эстевес), наблюдательница Ханна
+                        Уильямс (Ингеборга Дапкунайте) и шпионка под прикрытием Сара Дэйвис (Кристин Скотт Томас). После встречи и разработки плана опергруппа идет на миссию, которая внезапно идёт совершенно не по плану. Члены опергруппы гибнут один за
+                        другим, Голицын тоже становится жертвой. Итан обнаруживает, что остался один, а убийца украл диск у Голицына, затем убегает и запрашивает эвакуацию.
+                    </p>
+                    <a class="mission__btn play" href="">Смотреть</a>
+                    <a class="mission__btn add" href="">Добавить в список</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="movies">
+        <div class="container">
+            <div class="movies__title">
+                Самые Популярные
+            </div>
+            <div class="movies__inner">
+                <div class="movies__inner-btn">
+                    <button type="button " data-filter="all ">Все</button>
+                    <button type="button " data-filter=".category-lucifer ">Романтика</button>
+                    <button type="button " data-filter=".category-avengers ">Анимационные</button>
+                    <button type="button " data-filter="category-defenders ">Приключения</button>
+                    <button type="button " data-filter="category-prison">Боевики</button>
+                    <button type="button " data-filter=".category-blacklist">Криминал</button>
+                    <button type="button " data-filter=".category-gotham">Комедии</button>
+                    <button type="button " data-filter=".category-the100">Драмы</button>
+                </div>
+                <div class="movies__inner-box">
+                    <div class="movies__item mix category-lucifer category-new all" " data-order="1 ">
+                        <a class="movie__item-img " href="# ">
+                            <img src="images/content/lucifer-mini.jpg " alt="lucifer ">
+                        </a>
+                        <div class="movie__item-title ">
+                            Люцифер
+                        </div>
+                        <div class="movie__item-content ">
+                            <div class="movie__item-year ">2016</div>
+                            <div class="movie__item-star "></div>
+                            <div class="movie__item-number ">8,1</div>
+                        </div>
+                    </div>
+                    <div class="movies__item mix category-avengers all "" data-order="2 ">
+                        <a class="movie__item-img " href="# ">
+                            <img src="images/content/avengers-mini.jpg " alt="avengeres ">
+                        </a>
+                        <div class="movie__item-title ">
+                            Мстители
+                        </div>
+                        <div class="movie__item-content ">
+                            <div class="movie__item-year ">2012</div>
+                            <div class="movie__item-star "></div>
+                            <div class="movie__item-number ">9,1</div>
+                        </div>
+                    </div>
+                    <div class="movies__item mix category-defenders category-new all" " data-order="3 ">
+                        <a class="movie__item-img " href="# ">
+                            <img src="images/content/defenders-mini.jpg " width="222px " height="196px " alt=" Защитники ">
+                        </a>
+                        <div class="movie__item-title ">
+                            Защитники
+                        </div>
+                        <div class="movie__item-content ">
+                            <div class="movie__item-year ">2017</div>
+                            <div class="movie__item-star "></div>
+                            <div class="movie__item-number ">8,7</div>
+                        </div>
+                    </div>
+                    <div class="movies__item mix category-prison all "" data-order="4 ">
+                        <a class="movie__item-img " href="# ">
+                            <img src="images/content/prison-mini.jpg " alt="Побег ">
+                        </a>
+                        <div class="movie__item-title ">
+                            Побег
+                        </div>
+                        <div class="movie__item-content ">
+                            <div class="movie__item-year ">2013</div>
+                            <div class="movie__item-star "></div>
+                            <div class="movie__item-number ">9,5</div>
+                        </div>
+                    </div>
+                    <div class="movies__item mix category-blacklist category-new all" " data-order="5 ">
+                        <a class="movie__item-img " href="# ">
+                            <img src="images/content/blacklist-mini.jpg " alt="черный список ">
+                        </a>
+                        <div class="movie__item-title ">
+                            Черный Список
+                        </div>
+                        <div class="movie__item-content ">
+                            <div class="movie__item-year ">2019</div>
+                            <div class="movie__item-star "></div>
+                            <div class="movie__item-number ">7,1</div>
+                        </div>
+                    </div>
+                    <div class="movies__item mix category-gotham all "" data-order="6 ">
+                        <a class="movie__item-img " href="# ">
+                            <img src="images/content/gotham-mini.jpg " width="222px " height="196px " alt="Готэм ">
+                        </a>
+                        <div class="movie__item-title ">
+                            Готэм
+                        </div>
+                        <div class="movie__item-content ">
+                            <div class="movie__item-year ">2016</div>
+                            <div class="movie__item-star "></div>
+                            <div class="movie__item-number ">6,6</div>
+                        </div>
+                    </div>
+                    <div class="movies__item mix category-the100 category-new all" " data-order="7 ">
+                        <a class="movie__item-img " href="# ">
+                            <img src="images/content/the100-mini.jpg " alt="сотня ">
+                        </a>
+                        <div class="movie__item-title ">
+                            100
+                        </div>
+                        <div class="movie__item-content ">
+                            <div class="movie__item-year ">2016</div>
+                            <div class="movie__item-star "></div>
+                            <div class="movie__item-number ">6,6</div>
+                        </div>
+                    </div>
+                    <div class="movies__item mix category-lucifer all "" data-order="8 ">
+                        <a class="movie__item-img " href="# ">
+                            <img src="images/content/lucifer-mini.jpg " alt="lucifer ">
+                        </a>
+                        <div class="movie__item-title ">
+                            Люцифер 6 Сезон
+                        </div>
+                        <div class="movie__item-content ">
+                            <div class="movie__item-year ">2016</div>
+                            <div class="movie__item-star "></div>
+                            <div class="movie__item-number ">8,1</div>
+                        </div>
+                    </div>
+                    <div class="movies__item mix category-lucifer category-new all" " data-order="9 ">
+                        <a class="movie__item-img " href="# ">
+                            <img src="images/content/lucifer-mini.jpg " alt="lucifer ">
+                        </a>
+                        <div class="movie__item-title ">
+                            Люцифер
+                        </div>
+                        <div class="movie__item-content ">
+                            <div class="movie__item-year ">2016</div>
+                            <div class="movie__item-star "></div>
+                            <div class="movie__item-number ">8,1</div>
+                        </div>
+                    </div>
+                    <div class="movies__item mix category-avengers all "" data-order="10 ">
+                        <a class="movie__item-img " href="# ">
+                            <img src="images/content/avengers-mini.jpg " alt="avengeres ">
+                        </a>
+                        <div class="movie__item-title ">
+                            Мстители
+                        </div>
+                        <div class="movie__item-content ">
+                            <div class="movie__item-year ">2012</div>
+                            <div class="movie__item-star "></div>
+                            <div class="movie__item-number ">9,1</div>
+                        </div>
+                    </div>
+                    <div class="movies__item mix category-defenders category-new all" " data-order="11 ">
+                        <a class="movie__item-img " href="# ">
+                            <img src="images/content/defenders-mini.jpg " width="222px " height="196px " alt=" Защитники ">
+                        </a>
+                        <div class="movie__item-title ">
+                            Защитники
+                        </div>
+                        <div class="movie__item-content ">
+                            <div class="movie__item-year ">2017</div>
+                            <div class="movie__item-star "></div>
+                            <div class="movie__item-number ">8,7</div>
+                        </div>
+                    </div>
+                    <div class="movies__item mix category-prison category-new all "" data-order="12 ">
+                        <a class="movie__item-img " href="# ">
+                            <img src="images/content/prison-mini.jpg " alt="Побег ">
+                        </a>
+                        <div class="movie__item-title ">
+                            Побег
+                        </div>
+                        <div class="movie__item-content ">
+                            <div class="movie__item-year ">2013</div>
+                            <div class="movie__item-star "></div>
+                            <div class="movie__item-number ">9,5</div>
+                        </div>
+                    </div>
+                    <div class="movies__item mix category-blacklist all" " data-order="13 ">
+                        <a class="movie__item-img " href="# ">
+                            <img src="images/content/blacklist-mini.jpg " alt="черный список ">
+                        </a>
+                        <div class="movie__item-title ">
+                            Черный Список
+                        </div>
+                        <div class="movie__item-content ">
+                            <div class="movie__item-year ">2019</div>
+                            <div class="movie__item-star "></div>
+                            <div class="movie__item-number ">7,1</div>
+                        </div>
+                    </div>
+                    <div class="movies__item mix category-gotham category-new al "" data-order="14 ">
+                        <a class="movie__item-img " href="# ">
+                            <img src="images/content/gotham-mini.jpg " width="222px " height="196px " alt="Готэм ">
+                        </a>
+                        <div class="movie__item-title ">
+                            Готэм
+                        </div>
+                        <div class="movie__item-content ">
+                            <div class="movie__item-year ">2016</div>
+                            <div class="movie__item-star "></div>
+                            <div class="movie__item-number ">6,6</div>
+                        </div>
+                    </div>
+                    <div class="movies__item mix category-the100 all" " data-order="15 ">
+                        <a class="movie__item-img " href="# ">
+                            <img src="images/content/the100-mini.jpg " alt="сотня ">
+                        </a>
+                        <div class="movie__item-title ">
+                            100
+                        </div>
+                        <div class="movie__item-content ">
+                            <div class="movie__item-year ">2016</div>
+                            <div class="movie__item-star "></div>
+                            <div class="movie__item-number ">6,6</div>
+                        </div>
+                    </div>
+                    <div class="movies__item mix category-lucifer category-new all "" data-order="16 ">
+                        <a class="movie__item-img " href="# ">
+                            <img src="images/content/lucifer-mini.jpg " alt="lucifer ">
+                        </a>
+                        <div class="movie__item-title ">
+                            Люцифер 6 Сезон
+                        </div>
+                        <div class="movie__item-content ">
+                            <div class="movie__item-year ">2016</div>
+                            <div class="movie__item-star "></div>
+                            <div class="movie__item-number ">8,1</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="movie__btn">
+                    <button type="button" data-filter=".category-new"> Новинки </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="venom" style="background-image: url(images/venom-download.jpg); width: 100%; height: 100%;">
+        <div class="container">
+            <div class="venom__item">
+                <div class="venom__pic">
+                    <a class="venom__pic-link " href="https://www.youtube.com/watch?v=B9_DhonlVQQ">
+                        <img class="mission__pic-img" src="images/vimeo-play.png" alt="Миссия Невыполнима">
+                        <img class="mission__pic-main" src="images/venom.jpg" width="674px" height="429px" alt="Миссия Невыполнима">
+                    </a>
+                </div>
+                <div class="venom__content">
+                    <ul class="venom__list-items">
+                        <li class="venom__list-item">
+                            <a class="venom__list-link year" href="#">2018</a>
+                        </li>
+                        <li class="venom__list-item">
+                            <a class="venom__list-link action" href="#">Боевик</a>
+                        </li>
+                        <li class="venom__list-item">
+                            <a class="venom__list-link adventure" href="#">Sci-fi</a>
+                        </li>
+                    </ul>
+                    <div class="venom__title">
+                        Веном
+                    </div>
+                    <p class="venom__paragraph">Биоинженерная корпорация «Фонд жизни» извлекает космический корабль, который разбился в Малайзии с четырьмя внеземными симбиотическими формами жизни, (хотя один из них ускользает, слившись с выжившим астронавтом, затем с парамедиком
+                        и со старушкой), и переносит их в исследовательский центр в Сан-Франциско. Журналист Эдди Брок, который проводит своеобразные интервью получает поручение от начальника провести интервью с генеральным директором «Фонда жизни» Карлтоном
+                        Дрейком о ракетах. Через свою невесту Энн Вейинг, адвоката, связанного с «Фондом жизни» Брок узнаёт о незаконных экспериментах «Фонда жизни» с многочисленными летальными исходами. Против инструкций Брок сталкивается с Дрейком с
+                        конфиденциальными материалами, которые он прочёл из электронной почты Вейинг, что привело к тому, что они оба уволены с работы и заканчивают свои отношения. Тем временем сбежавший симбиот меняет носителя на маленькую девочку и
+                        отправляется вместе с её семьёй в Сан-Франциско.
+                    </p>
+                    <a class="venom__btn play" href="">Смотреть</a>
+                    <a class="venom__btn add" href="">Добавить в список</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="catching">
+        <div class="container">
+            <div class="сatching__inner">
+                <div class="catching__item">
+                    <img src="images/catching-fire.jpg" alt="">
+                    <div class="catching__content">
+                        <div class="catching__title">
+                            Горячие Игры: Огонь и Пламя
+                        </div>
+                        <p class="catching__paragraph">
+                            Сумев выжить на безжалостных Голодных играх, Китнисс Эвердин и Пит Мелларк тщетно пытаются забыть о том, что произошло с ними в Капитолии (Китнисс не может разобраться в своих чувствах к Питу и Гейлу), и о смертях, которые они видели. Но президент Сноу,
+                            диктатор государства Панем, крайне обеспокоен положением в стране. Он угрожает Китнисс расправой над близкими, если та не сумеет убедить жителей, что её выходка с попыткой самоубийства — не акт открытого неповиновения Капитолию,
+                            а лишь необдуманное желание спасти жизнь своему любимому, Питу. В случае, если она поддержит разгорающееся восстание, он угрожает превратить 12-й дистрикт в радиоактивную пустыню, что было сделано раньше с дистриктом 13. Тур
+                            победителей, во время которого кортеж чемпионов должен посетить все дистрикты и Капитолий с триумфальными шествиями, должен снизить волнения в округах. Однако, вопреки желаниям Китнисс, это лишь подливает масла в огонь, и бунтовщиков
+                            бьют и казнят прямо во время тура у неё на глазах. Во время тура Пит объявляет о помолвке (фиктивной), и их свадьба становится обсуждаемым событием.
+                        </p>
+                        <a class="catching__link" href="">
+                                Читать далее
+                            </a>
+                    </div>
+                </div>
+                <div class="catching__aside">
+                    <div class="catching__aside-item">
+                        <img class="catching__aside-pic" src="images/mockingjay.jpg" alt="">
+                        <div class="catching__aside-content">
+                            <div class="catching__aside-text">
+                                Сколько стоит сделать видео такое, как Огонь и Пламя
+                            </div>
+                            <a class="catching__aside-link" href="#">
+                           Узнать Больше
+                        </a>
+                        </div>
+                    </div>
+                    <div class="catching__aside-item">
+                        <img class="catching__aside-pic" src="images/jenifer.jpg" alt="">
+                        <div class="catching__aside-content">
+                            <div class="catching__aside-text">
+                                Как Дженифер проживают свою жизнь
+                            </div>
+                            <a class="catching__aside-link" href="#">
+                           Узнать Больше
+                        </a>
+                        </div>
+                    </div>
+                    <div class="catching__aside-item">
+                        <img class="catching__aside-pic" src="images/mocking.jpg" alt="">
+                        <div class="catching__aside-content">
+                            <div class="catching__aside-text">
+                                Что произошло в первой части фильма?
+                            </div>
+                            <a class="catching__aside-link" href="#">
+                           Узнать Больше
+                        </a>
+                        </div>
+                    </div>
+                    <div class="catching__aside-item">
+                        <img class="catching__aside-pic" src="images/actors.jpg" alt="">
+                        <div class="catching__aside-content">
+                            <div class="catching__aside-text">
+                                Как ведут себя актеры за кулисами
+                            </div>
+                            <a class="catching__aside-link" href="#">
+                           Узнать Больше
+                        </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="catching__bottom">
+                <div class="catching__bottom-item">
+                    <img class="catching__bottom-pic" src="images/squad.jpg" alt="squad">
+                    <div class="catching__bottom-description">
+                        Отряд Самоубийц признан самым лучшим фильмом из голосования
+                    </div>
+                </div>
+                <div class="catching__bottom-item">
+                    <img class="catching__bottom-pic" src="images/darkknight.jpg" alt="squad">
+                    <div class="catching__bottom-description">
+                        Паттон Освальд предпологает, что Джокер вышел из тьмы
+                    </div>
+                </div>
+                <div class="catching__bottom-item">
+                    <img class="catching__bottom-pic" src="images/captainmarvel.jpg" alt="squad">
+                    <div class="catching__bottom-description">
+                        Капитан Марвел отличнейший фильм
+                    </div>
+                </div>
+                <div class="catching__bottom-item">
+                    <img class="catching__bottom-pic" src="images/avengersendgame.jpg" alt="squad">
+                    <div class="catching__bottom-description">
+                        Билеты на мстителя ужеможно купить на Ebay
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__col">
+                    <img class="footer__logo" src="images/footer__logo.png" alt="logo">
+                    <a class="footer__col-text">
+                        © Copyright 2019 KALLYAS - Hogash Studio. All rights reserved.
+                    </a>
+                    <div class="footer__col-partners">
+                        <div class="footer__col-partnerstext">
+                            Наши партнеры
+                        </div>
+                        <a class="footer__col-partnersstar" href="">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="19.657" height="18.72" viewBox="0 0 19.657 18.72">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #6d6d6d;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="_Icon_Color" data-name="🔹 Icon Color" class="cls-1" d="M417.958,5551.88a0.921,0.921,0,0,0,.672.49l4.38,0.64-3.169,3.08a0.894,0.894,0,0,0-.257.79l0.748,4.36-3.917-2.06a0.934,0.934,0,0,0-.831,0l-3.916,2.06,0.747-4.36a0.894,0.894,0,0,0-.257-0.79l-3.169-3.08,4.381-.64a0.921,0.921,0,0,0,.672-0.49l1.958-3.97Zm-11.016-.38a0.891,0.891,0,0,0-.494,1.52l4.128,4.02-0.974,5.68a0.9,0.9,0,0,0,1.3.95l5.1-2.69,5.1,2.69a0.9,0.9,0,0,0,1.3-.95l-0.974-5.68,4.127-4.02a0.891,0.891,0,0,0-.493-1.52l-5.706-.83-2.552-5.17a0.889,0.889,0,0,0-1.6,0l-2.551,5.17Z" transform="translate(-406.156 -5545.03)"/>
+</svg>
+                        </a>
+                        <a class="footer__col-partnersstar" href="">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="19.657" height="18.72" viewBox="0 0 19.657 18.72">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #6d6d6d;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="_Icon_Color" data-name="🔹 Icon Color" class="cls-1" d="M417.958,5551.88a0.921,0.921,0,0,0,.672.49l4.38,0.64-3.169,3.08a0.894,0.894,0,0,0-.257.79l0.748,4.36-3.917-2.06a0.934,0.934,0,0,0-.831,0l-3.916,2.06,0.747-4.36a0.894,0.894,0,0,0-.257-0.79l-3.169-3.08,4.381-.64a0.921,0.921,0,0,0,.672-0.49l1.958-3.97Zm-11.016-.38a0.891,0.891,0,0,0-.494,1.52l4.128,4.02-0.974,5.68a0.9,0.9,0,0,0,1.3.95l5.1-2.69,5.1,2.69a0.9,0.9,0,0,0,1.3-.95l-0.974-5.68,4.127-4.02a0.891,0.891,0,0,0-.493-1.52l-5.706-.83-2.552-5.17a0.889,0.889,0,0,0-1.6,0l-2.551,5.17Z" transform="translate(-406.156 -5545.03)"/>
+</svg>
+                        </a>
+                        <a class="footer__col-partnersstar" href="">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="19.657" height="18.72" viewBox="0 0 19.657 18.72">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #6d6d6d;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="_Icon_Color" data-name="🔹 Icon Color" class="cls-1" d="M417.958,5551.88a0.921,0.921,0,0,0,.672.49l4.38,0.64-3.169,3.08a0.894,0.894,0,0,0-.257.79l0.748,4.36-3.917-2.06a0.934,0.934,0,0,0-.831,0l-3.916,2.06,0.747-4.36a0.894,0.894,0,0,0-.257-0.79l-3.169-3.08,4.381-.64a0.921,0.921,0,0,0,.672-0.49l1.958-3.97Zm-11.016-.38a0.891,0.891,0,0,0-.494,1.52l4.128,4.02-0.974,5.68a0.9,0.9,0,0,0,1.3.95l5.1-2.69,5.1,2.69a0.9,0.9,0,0,0,1.3-.95l-0.974-5.68,4.127-4.02a0.891,0.891,0,0,0-.493-1.52l-5.706-.83-2.552-5.17a0.889,0.889,0,0,0-1.6,0l-2.551,5.17Z" transform="translate(-406.156 -5545.03)"/>
+</svg>
+                        </a>
+                        <a class="footer__col-partnersstar" href="">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="19.657" height="18.72" viewBox="0 0 19.657 18.72">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #6d6d6d;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="_Icon_Color" data-name="🔹 Icon Color" class="cls-1" d="M417.958,5551.88a0.921,0.921,0,0,0,.672.49l4.38,0.64-3.169,3.08a0.894,0.894,0,0,0-.257.79l0.748,4.36-3.917-2.06a0.934,0.934,0,0,0-.831,0l-3.916,2.06,0.747-4.36a0.894,0.894,0,0,0-.257-0.79l-3.169-3.08,4.381-.64a0.921,0.921,0,0,0,.672-0.49l1.958-3.97Zm-11.016-.38a0.891,0.891,0,0,0-.494,1.52l4.128,4.02-0.974,5.68a0.9,0.9,0,0,0,1.3.95l5.1-2.69,5.1,2.69a0.9,0.9,0,0,0,1.3-.95l-0.974-5.68,4.127-4.02a0.891,0.891,0,0,0-.493-1.52l-5.706-.83-2.552-5.17a0.889,0.889,0,0,0-1.6,0l-2.551,5.17Z" transform="translate(-406.156 -5545.03)"/>
+</svg>
+                        </a>
+                        <a class="footer__col-partnersstar" href="">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="19.657" height="18.72" viewBox="0 0 19.657 18.72">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #6d6d6d;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="_Icon_Color" data-name="🔹 Icon Color" class="cls-1" d="M417.958,5551.88a0.921,0.921,0,0,0,.672.49l4.38,0.64-3.169,3.08a0.894,0.894,0,0,0-.257.79l0.748,4.36-3.917-2.06a0.934,0.934,0,0,0-.831,0l-3.916,2.06,0.747-4.36a0.894,0.894,0,0,0-.257-0.79l-3.169-3.08,4.381-.64a0.921,0.921,0,0,0,.672-0.49l1.958-3.97Zm-11.016-.38a0.891,0.891,0,0,0-.494,1.52l4.128,4.02-0.974,5.68a0.9,0.9,0,0,0,1.3.95l5.1-2.69,5.1,2.69a0.9,0.9,0,0,0,1.3-.95l-0.974-5.68,4.127-4.02a0.891,0.891,0,0,0-.493-1.52l-5.706-.83-2.552-5.17a0.889,0.889,0,0,0-1.6,0l-2.551,5.17Z" transform="translate(-406.156 -5545.03)"/>
+</svg>
+                        </a>
+                    </div>
+                    <div class="footer__col-social">
+                        <ul>
+                            <li>
+                                <a class="icon-facebook" href="#"></a>
+                            </li>
+                            <li>
+                                <a class="icon-google-plus" href="#"></a>
+                            </li>
+                            <li>
+                                <a class="icon-github-square" href="#"></a>
+                            </li>
+                            <li>
+                                <a class="icon-linkedin-square" href="#"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <ul class="footer__col-list">
+                    <div class="footer__col-title">
+                        Фильма и сериалы
+                    </div>
+                    <li class="footer__col-item">
+                        <a href="#" class="footer__col-link">
+                         Боевики
+                        </a>
+                    </li>
+                    <li class="footer__col-item">
+                        <a href="#" class="footer__col-link">
+                         Приключения
+                        </a>
+                    </li>
+                    <li class="footer__col-item">
+                        <a href="#" class="footer__col-link">
+                        Анимация
+                        </a>
+                    </li>
+                    <li class="footer__col-item">
+                        <a href="#" class="footer__col-link">
+                         Биография
+                        </a>
+                    </li>
+                    <li class="footer__col-item">
+                        <a href="#" class="footer__col-link">
+                           Комедии
+                        </a>
+                    </li>
+                    <li class="footer__col-item">
+                        <a href="#" class="footer__col-link">
+                          Криминал
+                        </a>
+                    </li>
+                    <li class="footer__col-item">
+                        <a href="#" class="footer__col-link">
+                         Документальные фильмы
+                        </a>
+                    </li>
+                    <li class="footer__col-item">
+                        <a href="#" class="footer__col-link">
+                         Биография
+                        </a>
+                    </li>
+                    <li class="footer__col-item">
+                        <a href="#" class="footer__col-link">
+                         Драма
+                        </a>
+                    </li>
+                    <li class="footer__col-item">
+                        <a href="#" class="footer__col-link">
+                        Семейное
+                        </a>
+                    </li>
+                </ul>
+                <ul class="footer__col-list">
+                    <div class="footer__col-title">
+                        Другое
+                    </div>
+                    <li class="footer__col-item">
+                        <a href="#" class="footer__col-link">
+                         Новости
+                        </a>
+                    </li>
+                    <li class="footer__col-item">
+                        <a href="#" class="footer__col-link">
+                         ТВ Шоу
+                        </a>
+                    </li>
+                    <li class="footer__col-item">
+                        <a href="#" class="footer__col-link">
+                       О Нас
+                        </a>
+                    </li>
+                    <li class="footer__col-item">
+                        <a href="#" class="footer__col-link">
+                         Регистрция
+                        </a>
+                    </li>
+                    <li class="footer__col-item">
+                        <a href="#" class="footer__col-link">
+                           Частное Сотрудничество
+                        </a>
+                    </li>
+                    <li class="footer__col-item">
+                        <a href="#" class="footer__col-link">
+                          Работа
+                        </a>
+                    </li>
+                    <li class="footer__col-item">
+                        <a href="#" class="footer__col-link">
+                        Скоро Будет
+                        </a>
+                    </li>
+                    <li class="footer__col-item">
+                        <a href="#" class="footer__col-link">
+                         Реклама
+                        </a>
+                    </li>
+                    <li class="footer__col-item">
+                        <a href="#" class="footer__col-link">
+                        Топ Фильмы
+                        </a>
+                    </li>
+                    <li class="footer__col-item">
+                        <a href="#" class="footer__col-link">
+                       Поиск
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <div id="modal">
+        <div class="login-wrapper ">
+            <div class="login__title ">
+                Вход
+            </div>
+            <form>
+                <label class=" login__label-name ">
+            <input type="text " placeholder="Имя " required>
+             </label>
+                <label class="login__label-password ">
+                <input type="text " placeholder="Пароль " required>
+                </label>
+                <button type="submit ">Подтвердить</button>
+                <a class="create-acc " href="# ">Создать Аккаунт</a>
+                <a class="lost-pass " href="# ">Забыли Пароль?</a>
+            </form>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js "></script>
+    <script src="js/libs.min.js "></script>
+    <script src="js/main.js "></script>
 </body>
 
 </html>

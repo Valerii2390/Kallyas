@@ -4,29 +4,28 @@ $(function() {
         slidesToShow: 1,
         slidesToScroll: 1,
         dots: false,
-        // responsive: [{
-        //         breakpoint: 1900,
-        //         settings: {
-        //             slidesToShow: 3,
-        //             slidesToScroll: 3,
-        //             infinite: true,
-        //             dots: true
-        //         }
-        //     },
-        //     {
-        //         breakpoint: 1441,
-        //         settings: {
-        //             slidesToShow: 2,
-        //             slidesToScroll: 2
-        //         }
-        //     },
-        //     {
-        //         breakpoint: 1000,
-        //         settings: {
-        //             slidesToShow: 1,
-        //             slidesToScroll: 1
-        //         }
-        //     }
-        // ]
+        fade: true,
+        cssEase: 'linear',
+        prevArrow: '<button class="slick-prev slick-arrow"><img src="images/prev.svg" alt="prev arrow" /></button>',
+        nextArrow: '<button class="slick-next slick-arrow"><img src="images/next.svg" alt="next arrow" /></button>',
+        asNavFor: '.slider__items-mini'
+
     });
+    $('.slider__items-mini').slick({
+        slidesToShow: 6,
+        slidesToScroll: 1,
+        asNavFor: '.slider__inner',
+        dots: false,
+        arrows: false,
+        // centerMode: true,
+        focusOnSelect: true
+    });
+    $(".movie__item-star").rateYo({
+        rating: 1,
+        starWidth: "12px",
+        readOnly: true,
+        ratedFill: "#E74C3C"
+    });
+
+    var mixer = mixitup('.movies__inner-box');
 });
